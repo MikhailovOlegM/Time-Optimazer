@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="project.timemanag.Info"
+    android:onClick="onClick">
+
+
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:background="@drawable/bg"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:textSize="32sp"
+        android:id="@+id/textView2"
+        android:layout_alignBottom="@+id/backButton"
+        android:layout_alignRight="@+id/textView3"
+        android:layout_alignEnd="@+id/textView3" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:text="@string/method2"
+        android:textSize="22sp"
+        android:layout_marginRight="50px"
+        android:layout_marginLeft="70px"
+        android:lineSpacingMultiplier="1.0"
+        android:layout_width="wrap_content"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="36dp"
+
+        android:gravity="center"
+
+        />
+
+    <ImageButton
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="40dp"
+        android:layout_height="60dp"
+        android:id="@+id/backButton"
+        android:onClick="onClick"
+        android:layout_marginTop="36dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3"
+        android:src="@drawable/backpointbuttonn"
+        android:background="#00000000"
+        android:scaleType="fitCenter" />
+
+
+
+</RelativeLayout>
+
+
+
+
+</ScrollView>
+
+
