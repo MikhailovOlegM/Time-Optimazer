@@ -1,5 +1,5 @@
 # Time-Optimazer
-Mobile app
+Mobile app  
 1. Decide on the task to be done.  
 2. Set the pomodoro timer (traditionally to 25 minutes).  
 3. Work on the task until the timer rings. If a distraction pops into your head, write it down, but immediately get back on task.  
